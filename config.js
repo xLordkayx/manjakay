@@ -8,7 +8,7 @@ global.video= "" ;
 global.port =process.env.PORT 
 global.appUrl=process.env.APP_URL || ""     // put your deploy app/bot url here, for 24/7 for (render , koyeb, glitch)
 global.email ="saimsamsun789@gmail.com"
-global.location="Lahore,Pakistan."
+global.location="Nigeria,Lagos."
 
 
 global.mongodb= process.env.MONGODB_URI || "false" || "mongodb+srv://mohsin:mohsin@cluster0.iauaztt.mongodb.net/?retryWrites=true&w=majority"
@@ -16,17 +16,17 @@ global.allowJids= process.env.ALLOW_JID || "null"
 global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || "false" || "mongodb+srv://mohsin:mohsin@cluster0.iauaztt.mongodb.net/?retryWrites=true&w=majority"
 
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
-global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/suhailmd-2.0";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.ibb.co/TgwRyHR/Ephoto360-com-166de101e03cd7.jpg" || "https://i.ibb.co/bH1kbX0/a4c0b1af253197d4837ff6760d5b81c0.jpg" ; // SET LOGO FOR IMAGE 
-global.caption = process.env.CAPTION || global.caption || "© SuhailTechInfo" 
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "Nigeria,Lagos";
+global.github=process.env.GITHUB|| "github.com/xLordkayx/suhailmd-2.0";
+global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VajNrqi7dmegpU2Yla1f";
+global.website=process.env.GURL || "https://whatsapp.com/channel/0029VajNrqi7dmegpU2Yla1f" ; 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://files.catbox.moe/e7g7d3.jpeg" || "https://files.catbox.moe/t54mcd.jpeg" ; // SET LOGO FOR IMAGE 
+global.caption = process.env.CAPTION || global.caption || "© 𝐋𝐨𝐫𝐝𝐊𝐚𝐲Tech" 
+ 
 
-
-global.devs = "" // Developer Contact
+global.devs =  "2347045505096" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2347045505096";
 
 
 
@@ -42,7 +42,7 @@ global.disablepm = process.env.DISABLE_PM || "false"
 global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in groups when public mode
 
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false" // "true"  to see messages , "log" to show logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES || "https://i.ibb.co/pXyNHj8/suhail.jpg" // "image" // set Image/video urls here
+global.userImages= process.env.USER_IMAGES || "https://files.catbox.moe/e7g7d3.jpeg" // "image" // set Image/video urls here
 global.waPresence= process.env.WAPRESENCE ||  "null" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
@@ -74,13 +74,13 @@ module.exports = {
   VERSION : process.env.VERSION || "1.0.1-developement-x",
   caption : global.caption || "" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ GlobalTechInfo ® 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@GlobalTechInfo"),
  
-  author : process.env.PACK_AUTHER|| "",
-  packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "Suhail-XMD",
-  ownername:process.env.OWNER_NAME|| "Suhail-X",
+  author : process.env.PACK_AUTHER|| "𝐋𝐨𝐫𝐝𝐊𝐚𝐲",
+  packname: process.env.PACK_NAME || "𝑴𝑨𝑵𝑱𝑨𝑲𝑨𝒀",
+  botname : process.env.BOT_NAME  || "𝐌𝐀𝐍𝐉𝐀𝐊𝐀𝐘",
+  ownername:process.env.OWNER_NAME|| "𝐋𝐨𝐫𝐝𝐊𝐚𝐲",
 
 
-  errorChat : process.env.ERROR_CHAT || "",
+  errorChat : process.env.ERROR_CHAT || "contact me xlordkayx",
   KOYEB_API : process.env.KOYEB_API  || "false",
 
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "yepeTQaFk7r9ymusihgXYvdN",
@@ -92,7 +92,7 @@ module.exports = {
 
 
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
-  LANG: ( process.env.THEME ||  "SUHAIL"  ).toUpperCase(),
+  LANG: ( process.env.THEME ||  "𝐌𝐀𝐍𝐉𝐀𝐊𝐀𝐘"  ).toUpperCase(),
 
 
 
