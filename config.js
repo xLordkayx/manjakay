@@ -80,7 +80,7 @@ module.exports = {
   ownername:process.env.OWNER_NAME|| "𝐋𝐨𝐫𝐝𝐊𝐚𝐲",
 
 
-  errorChat : process.env.ERROR_CHAT || "contact me xlordkayx",
+  errorChat : process.env.ERROR_CHAT || "",
   KOYEB_API : process.env.KOYEB_API  || "false",
 
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "yepeTQaFk7r9ymusihgXYvdN",
